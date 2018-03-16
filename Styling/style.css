@@ -1,0 +1,108 @@
+body {
+    background-image: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hover {
+    display: inline;
+    height: 130px !important;
+    width: 130px !important;
+    margin: 0 !important;
+}
+
+.charpics {
+    height: 130px;
+    width: 130px;
+    padding-top: 85px;
+    margin: 10px !important;
+    background-size: contain;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    color: gold;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    background-color: white;
+    font-size: 30px;
+    opacity: .95;
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.containment {
+    margin: 10px !important;
+}
+
+.poonchy {
+    background-image: url(../Images/poonchy1.jpg);
+}
+
+.respite {
+    background-image: url(../Images/respite1.jpg);
+}
+
+.vokundo {
+    background-image: url(../Images/vokundo1.jpg);
+}
+
+.firewraith {
+    background-image: url(../Images/firewraith1.jpg);
+}
+
+.hover:hover .respite {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    opacity: 1;
+}
+.hover:hover .poonchy {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    opacity: 1;
+}
+.hover:hover .vokundo {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    opacity: 1;
+}
+.hover:hover .firewraith {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    opacity: 1;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.hover:hover a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.containment{
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+}
+
+.row {
+    padding-right: 20px;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    color: white;
+}
