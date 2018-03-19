@@ -174,15 +174,15 @@ table tr:first-child td:last-child {
     border-radius: 5px;
     color: white !important;
     font-weight: bold;
-    -webkit-transition: all .5s ease-in-out;
-	-moz-transition: all .5s ease-in-out;
-	-o-transition: all .5s ease-in-out;
-	transition: all .5s ease-in-out;  
+    -webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;  
 }
 
 .returnbutton:hover {
     text-decoration: underline !important;
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 1), 0 24px 80px 0 rgba(0, 0, 0, .9);
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.6), 0 12px 40px 0 rgba(0, 0, 0, 0.59);
 }
 
 .jumbotron {
