@@ -1,3 +1,11 @@
+* {
+    font-family: 'Lobster', cursive;
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
     background-image: url(../Images/background.jpg);
     background-repeat: no-repeat;
@@ -108,8 +116,16 @@ a:visited {
     color: white;
 }
 
+.jumbotron h2 {
+    color: white;
+}
+
+img {
+    border-radius: 20px;
+}
+
 td {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
@@ -121,6 +137,7 @@ table {
     border-collapse: collapse;
     border-radius: 1em;
     overflow: hidden;
+    font-size: 18px;
 }
 
 table tr:last-child td:first-child {
@@ -142,4 +159,20 @@ table tr:first-child td:last-child {
 .reshpee {
     margin-top: 20px;
     min-height: 100px !important;
+}
+
+.returnbutton {
+    display: block;
+    width: 170px;
+    height: 46px;
+    background: rgb(43, 84, 94);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white !important;
+    font-weight: bold;
+}
+
+.returnbutton:hover {
+    text-decoration: underline !important;
 }
