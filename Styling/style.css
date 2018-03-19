@@ -2,6 +2,7 @@ body {
     background-image: url(../Images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200%;
 }
 
 .hover {
@@ -47,8 +48,8 @@ body {
     background-image: url(../Images/respite1.jpg);
 }
 
-.vokundo {
-    background-image: url(../Images/vokundo1.jpg);
+.nythrae {
+    background-image: url(../Images/nythrae1.png);
 }
 
 .firewraith {
@@ -63,7 +64,7 @@ body {
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
     opacity: 1;
 }
-.hover:hover .vokundo {
+.hover:hover .nythrae {
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
     opacity: 1;
 }
@@ -105,4 +106,40 @@ a:visited {
 
 .jumbotron h1 {
     color: white;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+table {
+    border-radius: 40px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 30px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 30px;
+}
+
+table tr:first-child td:first-child {
+    border-top-left-radius: 30px;
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius: 30px;
+}
+
+.reshpee {
+    margin-top: 20px;
+    min-height: 100px !important;
 }
