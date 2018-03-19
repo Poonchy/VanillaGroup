@@ -125,10 +125,10 @@ img {
     border: 10px solid black;
     -webkit-filter: blur(4px) invert(1) contrast(0.75);
     filter: blur(1px) contrast(1.75);
-    -webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;  
+    -webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;  
 }
 
 img:hover {
@@ -175,7 +175,7 @@ table tr:first-child td:last-child {
 
 .returnbutton {
     display: block;
-    width: 200px;
+    width: 215px;
     height: 46px;
     background: rgb(43, 84, 94);
     padding: 10px;
