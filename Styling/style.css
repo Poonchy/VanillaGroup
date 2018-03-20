@@ -65,19 +65,19 @@ body {
 }
 
 .hover:hover .respite {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    box-shadow: 0 0 32px 0 rgba(255, 255, 255, 0.6), 0 0 80px 0 rgba(255, 255, 255, 0.59);
     opacity: 1;
 }
 .hover:hover .poonchy {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    box-shadow: 0 0 32px 0 rgba(255, 255, 255, 0.6), 0 0 80px 0 rgba(255, 255, 255, 0.59);
     opacity: 1;
 }
 .hover:hover .nythrae {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    box-shadow: 0 0 32px 0 rgba(255, 255, 255, 0.6), 0 0 80px 0 rgba(255, 255, 255, 0.59);
     opacity: 1;
 }
 .hover:hover .firewraith {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    box-shadow: 0 0 32px 0 rgba(255, 255, 255, 0.6), 0 0 80px 0 rgba(255, 255, 255, 0.59);
     opacity: 1;
 }
 
@@ -140,7 +140,7 @@ table {
     border-radius: 1em;
     overflow: hidden;
     font-size: 18px;
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.6), 0 24px 80px 0 rgba(0, 0, 0, 0.59);
 }
 
 table tr:last-child td:first-child {
@@ -182,7 +182,7 @@ table tr:first-child td:last-child {
 
 .returnbutton:hover {
     text-decoration: underline !important;
-    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.6), 0 12px 40px 0 rgba(0, 0, 0, 0.59);
+    box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.6), 0 0 40px 0 rgba(255, 255, 255, 0.59);
 }
 
 .jumbotron {
