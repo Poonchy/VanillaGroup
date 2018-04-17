@@ -50,18 +50,26 @@ body {
 
 .poonchy {
     background-image: url(../Images/poonchy1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .respite {
     background-image: url(../Images/respite1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nythrae {
     background-image: url(../Images/nythrae1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .firewraith {
     background-image: url(../Images/firewraith1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hover:hover .respite {
