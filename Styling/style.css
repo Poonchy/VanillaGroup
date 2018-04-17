@@ -4,13 +4,14 @@
 
 html {
     font-size: 18px;
+    height: 100% !important;
 }
 
 body {
+    height: 100% !important;
     background-image: url(../Images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200%;
 }
 
 .hover {
